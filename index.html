@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="message">Player With Higher Roll Goes First</h1>
+      <div class="players">
+        <div id="player1">
+          <h1>Score: 
+            <span id="player1-scoreboard">0</span>
+          </h1>
+          <div id="player1-dice" class="dice active">-</div>
+        </div>
+        <div id="player2">
+          <h1>Score: 
+              <span id="player2-scoreboard">0</span>
+          </h1>
+          <div id="player2-dice" class="dice">-</div>
+        </div>
+      </div>
+
+      <button id="reset-btn">Start Game</button>
+      <button id="roll-btn">Roll Dice 🎲</button>
+      <button id="double-or-nothing-btn"><span class="double">x2</span> or <span class="nothing">Nothing</span></button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
+
